@@ -1,0 +1,68 @@
+# .project metadata for CoHDI
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Add maintainer GitHub handles
+# TODO: Add maturity_log entry with TOC issue URL
+# TODO: Set project_lead GitHub handle
+# TODO: Set cncf_slack_channel
+# TODO: Set identity_type under legal (has_dco, has_cla)
+# TODO: Add adopters list (ADOPTERS.md)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "cohdi"
+name: "CoHDI"
+description: "Enables dynamic device scaling using Composable Hardware Disaggregated Infrastructure (CoHDI). CoHDI is a community-driven, standards-based open ecosystem for next-generation architectures and frameworks built on Composable Hardware Disaggregated Infrastructure. The objective is to bridge the gap between Kubernetes and CoHDI by collaborating with the Dynamic Resource Allocation, Autoscaler, and Scheduler projects. This enables data center operators to realize the benefits of cost efficiency, high availability, and sustainability through a disaggregated computing system."
+type: "project"
+# TODO: Set project lead GitHub handle
+# project_lead: "github-handle"
+# TODO: Set CNCF Slack channel
+# cncf_slack_channel: "#cohdi"
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2026-03-18T14:41:43Z"
+    issue: "https://github.com/cncf/toc/issues/XXX" # TODO: Set TOC issue URL
+
+repositories:
+  - "https://github.com/CoHDI"
+
+website: "https://github.com/CoHDI"
+
+artwork: "https://landscape.cncf.io/logos/cncf.svg"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/CoHDI/CoHDI/blob/main/ADOPTERS.md"
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "CoHDI/CoHDI"
+
+
+security:
+  policy:
+    path: "https://github.com/CoHDI/CoHDI/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/CoHDI/CoHDI/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/CoHDI/CoHDI/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/cncf/foundation/blob/main/code-of-conduct.md"
+
+legal:
+  license:
+    path: "https://github.com/CoHDI/CoHDI/blob/main/LICENSE"
+  identity_type:
+    has_dco: true
+    has_cla: false
+    dco_url:
+      path: "https://developercertificate.org/"
+
+
+landscape:
+  category: "Orchestration & Management"
+  subcategory: "Scheduling & Orchestration"
+

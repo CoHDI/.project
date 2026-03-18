@@ -1,0 +1,13 @@
+# Maintainer roster for CoHDI
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Add maintainer GitHub handles
+
+maintainers:
+  - project_id: "cohdi"
+    org: "CoHDI"
+    teams:
+      - name: "project-maintainers"
+        members:
+          # TODO: Add maintainer handles
+          - github-handle
